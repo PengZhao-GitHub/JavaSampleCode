@@ -1,0 +1,46 @@
+import java.beans.*;
+import java.awt.*;
+import java.io.Serializable;
+         
+public class SimpleBean extends Canvas
+                        implements Serializable
+{
+    private Color color = Color.green;
+    
+    private PropertyChangeSupport changes =
+            new PropertyChangeSupport(this);
+
+    public void addPropertyChangeListener(
+                PropertyChangeListener l)
+    {
+     	changes.addPropertyChangeListener(l);
+    }
+
+    public void removePropertyChangeListener(
+                PropertyChangeListener l)
+    {
+    	changes.removePropertyChangeListener(l);
+    }
+
+    //Constructor sets inherited properties
+    public SimpleBean(){
+        setSize(60,40);
+        setBackground(color);
+    }
+
+    public Color getColor(){
+    	return color;
+    } 
+
+    public void setColor(Color newColor) {
+    	Color oldColor = color;
+	color = newColor;
+    	repaint();
+	changes.firePropertyChange("Color", oldColor, newColor);
+    }
+
+    public void paint(Graphics g) {
+	g.setColor(color);
+	g.fillRect(20,5,20,30);
+    }
+}
