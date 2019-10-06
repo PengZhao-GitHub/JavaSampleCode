@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--JBuilder XML プロジェクト-->
+<project>
+  <property category="idl" name="Compiler" value="VisiBroker" />
+  <property category="runtime.0" name="RunnableType" value="com.borland.jbuilder.runtime.ApplicationRunner" />
+  <property category="runtime.0" name="application.class" value="fileio.Application1" />
+  <property category="sys" name="BackupPath" value="bak" />
+  <property category="sys" name="CheckStable" value="1" />
+  <property category="sys" name="Company" value="Cool Family" />
+  <property category="sys" name="Copyright" value="Copyright (c) 2002" />
+  <property category="sys" name="Description" value="" />
+  <property category="sys" name="DocPath" value="doc" />
+  <property category="sys" name="ExcludeClassEnabled" value="0" />
+  <property category="sys" name="JDK" value="java 1.3.0_02" />
+  <property category="sys" name="LastTag" value="0" />
+  <property category="sys" name="Libraries" value="BAS 4.5;JBCL" />
+  <property category="sys" name="MakeStable" value="0" />
+  <property category="sys" name="OutPath" value="classes" />
+  <property category="sys" name="SourcePath" value="src" />
+  <property category="sys" name="Title" value="File IO study" />
+  <property category="sys" name="Version" value="1.0" />
+  <property category="sys" name="WorkingDirectory" value="." />
+  <property category="sys" name="uidesign.size.fileio.Dialog1" value="425,322" />
+  <file path="src/fileio/Application1.java" />
+  <file path="src/fileio/Dialog1.java" />
+  <file path="fileio.html" />
+  <file path="src/fileio/Frame1.java" />
+  <file path="src/fileio/pspakszj00_001.java" />
+</project>
+
