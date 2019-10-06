@@ -1,0 +1,12 @@
+stbTransportModeCD
+stbTransportMode
+stbStatusFlg
+stbStatus
+stbInvoiceNo
+stbInvoiceDupicate
+stbSearchDate
+stbSearchJun
+stbRequestDate
+stbRequestTime
+stbClientCode
+stbClientName

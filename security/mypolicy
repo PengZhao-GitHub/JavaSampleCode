@@ -1,0 +1,12 @@
+/* AUTOMATICALLY GENERATED ON Fri Nov 29 15:34:44 JST 2002*/
+/* DO NOT EDIT */
+
+grant codeBase "http://localhost:8000/" {
+  permission java.io.FilePermission "writetest", "write";
+};
+
+grant codeBase "file:/E:/MyWork/JAVA/security/" {
+  permission java.util.PropertyPermission "user.home", "read";
+  permission java.util.PropertyPermission "java.home", "read";
+};
+

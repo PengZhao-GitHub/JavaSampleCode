@@ -1,0 +1,9 @@
+/* AUTOMATICALLY GENERATED ON Thu Oct 11 14:37:00 JST 2001*/
+/* DO NOT EDIT */
+
+keystore "file:/f:/mywork/java/security/raystore";
+
+grant signedBy "susan",  codeBase "file:/F:/myWork/java/security/s.jar" {
+  permission java.io.FilePermission "<<ALL FILES>>", "read";
+};
+

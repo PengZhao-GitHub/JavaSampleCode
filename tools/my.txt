@@ -1,0 +1,21 @@
+    public String getStbDate(){
+        return StbDate;
+    }
+    public void setStbDate(String str){
+        StbDate= str;
+    }
+
+    public String getStbTime(){
+        return StbTime;
+    }
+    public void setStbTime(String str){
+        StbTime= str;
+    }
+
+    public String getStbChange(){
+        return StbChange;
+    }
+    public void setStbChange(String str){
+        StbChange= str;
+    }
+

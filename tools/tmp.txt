@@ -1,0 +1,14 @@
+    public String getStbStoreCD(){
+        return stbStoreCD;
+    }
+    public void setStbStoreCD(String str){
+        stbStoreCD= str;
+    }
+
+    public String getStbStoreName(){
+        return stbStoreName;
+    }
+    public void setStbStoreName(String str){
+        stbStoreName= str;
+    }
+

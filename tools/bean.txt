@@ -1,0 +1,84 @@
+    public String getStbTransportModeCD(){
+        return stbTransportModeCD;
+    }
+    public void setStbTransportModeCD(String str){
+        stbTransportModeCD= str;
+    }
+
+    public String getStbTransportMode(){
+        return stbTransportMode;
+    }
+    public void setStbTransportMode(String str){
+        stbTransportMode= str;
+    }
+
+    public String getStbStatusFlg(){
+        return stbStatusFlg;
+    }
+    public void setStbStatusFlg(String str){
+        stbStatusFlg= str;
+    }
+
+    public String getStbStatus(){
+        return stbStatus;
+    }
+    public void setStbStatus(String str){
+        stbStatus= str;
+    }
+
+    public String getStbInvoiceNo(){
+        return stbInvoiceNo;
+    }
+    public void setStbInvoiceNo(String str){
+        stbInvoiceNo= str;
+    }
+
+    public String getStbInvoiceDupicate(){
+        return stbInvoiceDupicate;
+    }
+    public void setStbInvoiceDupicate(String str){
+        stbInvoiceDupicate= str;
+    }
+
+    public String getStbSearchDate(){
+        return stbSearchDate;
+    }
+    public void setStbSearchDate(String str){
+        stbSearchDate= str;
+    }
+
+    public String getStbSearchJun(){
+        return stbSearchJun;
+    }
+    public void setStbSearchJun(String str){
+        stbSearchJun= str;
+    }
+
+    public String getStbRequestDate(){
+        return stbRequestDate;
+    }
+    public void setStbRequestDate(String str){
+        stbRequestDate= str;
+    }
+
+    public String getStbRequestTime(){
+        return stbRequestTime;
+    }
+    public void setStbRequestTime(String str){
+        stbRequestTime= str;
+    }
+
+    public String getStbClientCode(){
+        return stbClientCode;
+    }
+    public void setStbClientCode(String str){
+        stbClientCode= str;
+    }
+
+    public String getStbClientName(){
+        return stbClientName;
+    }
+    public void setStbClientName(String str){
+        stbClientName= str;
+    }
+
