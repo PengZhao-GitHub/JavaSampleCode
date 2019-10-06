@@ -1,0 +1,23 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<title>
+HTML テストページ
+</title>
+</head>
+<body>
+appletstudy.Applet1 は Java が使用できるブラウザで下に表示されます<br>
+<applet
+  codebase = "."
+  code     = "appletstudy.Applet1.class"
+  name     = "TestApplet"
+  width    = "400"
+  height   = "300"
+  hspace   = "0"
+  vspace   = "0"
+  align    = "top"
+>
+<param name = "param0" value = "">
+</applet>
+</body>
+</html>

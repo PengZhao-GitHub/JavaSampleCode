@@ -1,0 +1,38 @@
+package appletstudy;
+
+import java.awt.*;
+import java.awt.event.*;
+import java.applet.*;
+
+public class Receiver extends Applet {
+  boolean isStandalone = false;
+  /**引数値の取得*/
+  public String getParameter(String key, String def) {
+    return isStandalone ? System.getProperty(key, def) :
+      (getParameter(key) != null ? getParameter(key) : def);
+  }
+
+  /**アプレットの構築*/
+  public Receiver() {
+  }
+  /**アプレットの初期化*/
+  public void init() {
+    try {
+      jbInit();
+    }
+    catch(Exception e) {
+      e.printStackTrace();
+    }
+  }
+  /**コンポーネントの初期化*/
+  private void jbInit() throws Exception {
+  }
+  /**アプレットの情報取得*/
+  public String getAppletInfo() {
+    return "Applet Information";
+  }
+  /**引数情報の取得*/
+  public String[][] getParameterInfo() {
+    return null;
+  }
+}
